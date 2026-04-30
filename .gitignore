@@ -1,0 +1,46 @@
+# ─── Dependencies ───────────────────────────────
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# ─── Environment & Secrets ──────────────────────
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ─── Build Output ───────────────────────────────
+dist/
+build/
+.next/
+out/
+*.min.js
+
+# ─── Logs ───────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# ─── macOS Specific ─────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ─── VS Code ────────────────────────────────────
+.vscode/settings.json
+.vscode/launch.json
+# Keep .vscode/extensions.json — share recommended extensions
+
+# ─── Docker ─────────────────────────────────────
+# Don't ignore docker-compose.yml — that's shared config
+# But ignore override files:
+docker-compose.override.yml
+
+# ─── Testing ────────────────────────────────────
+coverage/
+.nyc_output/
